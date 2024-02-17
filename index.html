@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1>Aprendendo Javascript</h1>
+    <p id="texto"></p>
+    <p>
+        <script>
+            document.write("Escrevendo por dentro do documento <u>HTML</u>."); 
+            // essa forma geralmente é mais usada para testes.
+            document.write('<br>',5*5);
+        </script>
+    </p>
+
+    <p id="texto2"></p>
+
+    <p id="texto3"></p>
+
+    <p id="texto4"></p>
+
+    <button onclick="olaHello()">Clique aqui</button>
+    
+    <!-- scripts js geralmente ficam no final do body, perto já da tag de fechamento, 
+    para garantir que o restante todo do html será montado antes de qualquer manipulação. -->
+    <script src="js/a_sintaxe.js"></script>
+    <script src="js/b_variaveis.js"></script>
+    <script src="js/c_operadores.js"></script>
+    <script src="js/d_funcoes.js"></script>
+    <script src="js/e_objetos.js"></script>
+</body>
+</html>
